@@ -8,5 +8,11 @@ namespace ChatServer.Data
 {
     class MessageTransfer
     {
+        public int MessageTransferId { get; set; }
+        public DateTime Sent { get; set; }
+        public DateTime Received { get; set; }
+
+
+
     }
 }

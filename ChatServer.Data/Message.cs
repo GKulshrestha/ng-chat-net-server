@@ -8,5 +8,9 @@ namespace ChatServer.Data
 {
     class Message
     {
+        public int MessageId { get; set; }
+        public string MessageText { get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }
